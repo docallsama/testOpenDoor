@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
  
+    //添加左右两张图片
     _leftDoor = [CALayer layer];
     _leftDoor.contents = (id)[UIImage imageNamed:@"leftDoor.png"].CGImage;
     _leftDoor.anchorPoint = CGPointMake(0.0, 0.5);
